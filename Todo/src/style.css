@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  
+}
+
+.TodoContainer{
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+.Todo{
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  /* flex-direction: column; */
+}
+
+.deletebtn{
+  padding: 10px 20px;
+  background-color:rgb(47, 146, 238);
+  color: white;
+  border-radius: 5px;
+}
+
+.isCompleted{
+ height: 20px;
+ width: 20px;
+}
+
+.line{
+  text-decoration: line-through;
+}
